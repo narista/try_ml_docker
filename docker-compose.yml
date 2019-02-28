@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  try_ml_docker:
+    image: try_ml_docker
+    build: .
+    ports:
+      - 50000:50000

@@ -1,0 +1,6 @@
+coremltools==2.0
+keras==2.1.6
+tensorflow==1.5.0
+numpy
+pillow
+opencv-python

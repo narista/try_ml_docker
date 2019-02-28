@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  try_ml_docker:
+    image: try_ml_docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 50000:50000
