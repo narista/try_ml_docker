@@ -76,3 +76,5 @@ I would like to share the sorce code and the dataset between the container and V
 ```shell
 $ docker run -v `pwd`:/app -it -d try_ml_docker:latest /bin/bash
 ```
+
+[Written in Japanese](README_ja.md)
