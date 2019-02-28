@@ -14,7 +14,7 @@ LABEL Name=try_ml_docker Version=0.0.1
 EXPOSE 50000
 
 # Add the following line
-RUN apt-get update && apt-get -y libopencv-dev
+RUN apt-get update && apt-get install -y libopencv-dev
 
 WORKDIR /app
 # Replace this line as follows.
